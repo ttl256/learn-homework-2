@@ -11,7 +11,7 @@
 5. Сохраните результат в файл referat2.txt
 """
 
-def main():
+def main():""
     with open('referat.txt', 'r', encoding='utf-8') as f:
         content = f.read()
         print(type(content))
